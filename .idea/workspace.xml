@@ -4,7 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/../date/ud/myindex.php" line="26" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ef7f0b9-d21c-4c0a-b606-046bfa1461fb" name="默认" comment="默认" />
+    <list default="true" id="8ef7f0b9-d21c-4c0a-b606-046bfa1461fb" name="默认" comment="默认">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +34,7 @@
     <session id="-548808497">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="29" />
+          <entry key="project.closed" value="31" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.23" value="1" />
@@ -52,8 +54,9 @@
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.55" value="2" />
           <entry key="project.open.time.57" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="30" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -63,7 +66,7 @@
           <entry key="html" value="2" />
           <entry key="js" value="21" />
           <entry key="log" value="2" />
-          <entry key="php" value="430" />
+          <entry key="php" value="434" />
           <entry key="php___jb_old___" value="1" />
           <entry key="rnc" value="2" />
           <entry key="txt" value="2" />
@@ -75,7 +78,7 @@
           <entry key="HTML" value="2" />
           <entry key="Image" value="1" />
           <entry key="JavaScript" value="21" />
-          <entry key="PHP" value="430" />
+          <entry key="PHP" value="434" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="RNG Compact" value="2" />
         </counts>
@@ -85,15 +88,16 @@
           <entry key="html" value="4" />
           <entry key="js" value="42" />
           <entry key="log" value="1" />
-          <entry key="php" value="15785" />
+          <entry key="php" value="15799" />
+          <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="18" />
           <entry key="JavaScript" value="42" />
-          <entry key="PHP" value="15769" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PHP" value="15783" />
+          <entry key="PLAIN_TEXT" value="13" />
           <entry key="SQL" value="2" />
         </counts>
       </usages-collector>
@@ -101,11 +105,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/New_QiyeSetAdd.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/m/Q_Qiy.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="324">
+              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/I_meet.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
+              <folding>
+                <element signature="e#29#33#1" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#96#102#0" expanded="true" />
+                <element signature="e#102#108#0" expanded="true" />
+                <element signature="e#110#116#0" expanded="true" />
+                <element signature="e#116#122#0" expanded="true" />
+                <element signature="e#258#264#0" expanded="true" />
+                <element signature="e#264#270#0" expanded="true" />
+                <element signature="e#271#277#0" expanded="true" />
+                <element signature="e#277#283#0" expanded="true" />
+                <element signature="e#0#6#0" expanded="true" />
+                <element signature="e#6#12#0" expanded="true" />
+                <element signature="e#12#18#0" expanded="true" />
+                <element signature="e#18#24#0" expanded="true" />
+                <element signature="e#24#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xSelmeet.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+              <folding>
+                <element signature="n#style#0;n#tr#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,12 +185,12 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Cs_het1Xiangq.php" />
         <option value="$PROJECT_DIR$/Q_het1Xiangq.php" />
         <option value="$PROJECT_DIR$/Q_het1.php" />
         <option value="$PROJECT_DIR$/New_Yongh.php" />
@@ -198,6 +241,7 @@
         <option value="$PROJECT_DIR$/../date/ud/myindex.php" />
         <option value="$PROJECT_DIR$/New_QiyeSet1Edit.php" />
         <option value="$PROJECT_DIR$/New_QiyeSetAdd.php" />
+        <option value="$PROJECT_DIR$/I_meet.php" />
       </list>
     </option>
   </component>
@@ -222,7 +266,7 @@
     </include_path>
   </component>
   <component name="PhpXdebugProxy" ide_key="phpStorm" host="127.0.0.1" port="8888" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-4" />
     <option name="y" value="-4" />
     <option name="width" value="648" />
@@ -234,7 +278,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,6 +289,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -352,12 +396,22 @@
       <workItem from="1536311367057" duration="5223000" />
       <workItem from="1536542055175" duration="4896000" />
       <workItem from="1536547975017" duration="420000" />
-      <workItem from="1536888688117" duration="2813000" />
+      <workItem from="1536888688117" duration="5292000" />
+      <workItem from="1536896434082" duration="8000" />
+      <workItem from="1536904462750" duration="822000" />
     </task>
+    <task id="LOCAL-00001" summary="修改">
+      <created>1536904653330</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1536904653330</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="712804000" />
+    <option name="totallyTimeSpent" value="716113000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -369,9 +423,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1608" height="864" extended-state="6" />
+    <frame x="-4" y="-4" width="1608" height="864" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6891892" visible="true" weight="0.14377406" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6891892" visible="true" weight="0.14762516" />
       <window_info id="Structure" order="1" sideWeight="0.3108108" side_tool="true" weight="0.16495506" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -401,6 +456,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -471,27 +530,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../huahe/Cs_Cangk1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1944">
-          <caret line="72" column="26" lean-forward="true" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/I_meet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="31" column="52" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cs_het1Tix1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="29" column="49" lean-forward="true" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inc/xexec.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -776,20 +814,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/New_QiyeSetAdd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/New_QiyeSet1Edit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1671">
-          <caret line="200" column="7" selection-start-line="200" selection-start-column="7" selection-end-line="200" selection-end-column="7" />
+        <state relative-caret-position="397">
+          <caret line="118" column="7" selection-start-line="118" selection-start-column="7" selection-end-line="118" selection-end-column="7" />
           <folding>
             <element signature="e#236#1689#0#PHP" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/New_QiyeSetAdd.php">
+    <entry file="file://$PROJECT_DIR$/xSelmeet.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="270">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#tr#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m/Q_Qiy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/I_meet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
+          <folding>
+            <element signature="e#29#33#1" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#96#102#0" expanded="true" />
+            <element signature="e#102#108#0" expanded="true" />
+            <element signature="e#110#116#0" expanded="true" />
+            <element signature="e#116#122#0" expanded="true" />
+            <element signature="e#258#264#0" expanded="true" />
+            <element signature="e#264#270#0" expanded="true" />
+            <element signature="e#271#277#0" expanded="true" />
+            <element signature="e#277#283#0" expanded="true" />
+            <element signature="e#0#6#0" expanded="true" />
+            <element signature="e#6#12#0" expanded="true" />
+            <element signature="e#12#18#0" expanded="true" />
+            <element signature="e#18#24#0" expanded="true" />
+            <element signature="e#24#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

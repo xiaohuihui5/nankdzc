@@ -1,6 +1,7 @@
 <?php
 require('./inc/xhead.php');
 require('./inc/xpage_uplib.php');
+echo "git";
 ?>
 <head>
     <link rel="stylesheet" href="./inc/xup.css?i=1" type="text/css">

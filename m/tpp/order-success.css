@@ -1,0 +1,42 @@
+﻿.container .top-wrap{width:100%;overflow:hidden;position:relative;}
+.container .top-bg{position:relative;top:0px;left:0px;width:70%;margin:25px 25% 18px 5%}
+.container .detail-wrap{background-color:#fff;width:100%;border-top:1px solid #e0e0e0;margin-bottom:158px;}
+.detail-row{display:block;height:87px;line-height:87px;position:relative;overflow:hidden;border-bottom:1px solid #e0e0e0;color:#525252;font-size:32px;width:90%;padding:0px 5%;}
+.detail-row .price{color:#fc3737;font-size:33px;}
+.detail-row.success{font-size:34px;font-family:'黑体';}
+.detail-row.rows{height:auto;line-height:60px;padding-top:14px;padding-bottom:13px;}
+@media screen and (max-width:500px){
+	.container .top-bg{margin:21px 25% 14px 5%}
+	.container .detail-wrap{margin-bottom:142px;}
+	.detail-row{line-height:78px;font-size:25px;}
+	.detail-row.rows{line-height:55px;padding-top:16px;padding-bottom:16px;}
+	.detail-row .price{font-size:30px;}
+	.detail-row.success{font-size:31px;}
+}
+@media screen and (max-width:450px){
+	.container .top-bg{margin:16px 25% 10px 5%}
+	.container .detail-wrap{margin-bottom:126px;}
+	.detail-row{height:70px;line-height:70px;font-size:21px;}
+	.detail-row.rows{line-height:43px;padding-top:14px;padding-bottom:13px;}
+	.detail-row .price{font-size:27px;}
+	.detail-row.success{font-size:28px;}
+}
+@media screen and (max-width:375px){
+	.container .top-bg{margin:7px 25% 3px 5%}
+	.container .detail-wrap{margin-bottom:95px;}
+	.detail-row{height:52px;line-height:52px;font-size:18px;}
+	.detail-row.rows{line-height:25px;padding-top:14px;padding-bottom:13px;}
+	.detail-row .price{font-size:20px;}
+	.detail-row.success{font-size:21px;}
+}
+@media screen and (max-width:320px){
+	.container .top-bg{margin:3px 25% 2px 5%}
+	.container .detail-wrap{margin-bottom:79px;}
+	.detail-row{height:44px;line-height:44px;font-size:16px;}
+	.detail-row.rows{line-height:25px;padding-top:10px;padding-bottom:9px;}
+	.detail-row .price{font-size:17px;}
+	.detail-row.success{font-size:18px;}
+}
+@media screen and (max-width:280px){
+	.detail-row{font-size:14px;}
+}

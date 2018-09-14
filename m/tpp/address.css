@@ -1,0 +1,51 @@
+.container{padding-top:15px;}
+.contact-info{width:100%;background-color:#fff;padding:20px 0px;border-top:1px solid #d5d5d5;border-bottom:1px solid #d5d5d5;}
+.contact-info .top-wrap{width:80%;padding:0px 5%;font-size:32px;position:relative;color:#000;}
+.contact-info .top-wrap .name{float:left;width:50%;display:block;height:50px;line-height:50px;}
+.contact-info .top-wrap .phone{float:left;width:70%;display:block;height:50px;line-height:50px;}
+.contact-info .top-wrap .right-arrow{position:absolute;top:14px;right:2px;width:18px;height:26px;display:block;background:url('icon_right_arrow.png') no-repeat center center;}
+.contact-info .address{margin:0px 5%;line-height:30px;height:30px;font-size:22px;color:#a2a2a2;}
+.btn-wrap.add{width:100%;}
+.btn-wrap.add .btn-add-addr{width:80%;margin:50px 10%;height:81px;line-height:81px;background-color:#38b700;font-size:32px;font-family:'ºÚÌå';display:block;color:#fff;text-align:center;border-radius:5px;}
+@media screen and (max-width:500px){
+	.contact-info{padding:19px 0px;}
+	.contact-info .top-wrap{font-size:30px;}
+	.contact-info .top-wrap .name{height:48px;line-height:48px;}
+	.contact-info .top-wrap .phone{height:48px;line-height:48px;}
+	.contact-info .top-wrap .right-arrow{top:10px;right:2px;}
+	.contact-info .address{line-height:29px;height:29px;font-size:21px;}
+.btn-wrap.add .btn-add-addr{margin:48px 10%;height:77px;line-height:77px;font-size:30px;}
+}
+@media screen and (max-width:450px){
+	.contact-info{padding:16px 0px;}
+	.contact-info .top-wrap{font-size:27px;}
+	.contact-info .top-wrap .name{height:40px;line-height:40px;}
+	.contact-info .top-wrap .phone{height:40px;line-height:40px;}
+	.contact-info .top-wrap .right-arrow{top:6px;right:2px;}
+	.contact-info .address{line-height:24px;height:24px;font-size:18px;}
+	.btn-wrap.add .btn-add-addr{width:80%;margin:40px 10%;height:65px;line-height:65px;font-size:22px;border-radius:4px;}
+}
+@media screen and (max-width:375px){
+	.contact-info{padding:12px 0px;}
+	.contact-info .top-wrap{font-size:19px;}
+	.contact-info .top-wrap .name{height:30px;line-height:30px;}
+	.contact-info .top-wrap .phone{height:30px;line-height:30px;}
+	.contact-info .top-wrap .right-arrow{top:4px;background-size:16px 23px;width:16px;height:23px;}
+	.contact-info .address{line-height:18px;height:18px;font-size:14px;}
+	.btn-wrap.add .btn-add-addr{width:80%;margin:30px 10%;height:49px;line-height:49px;font-size:19px;border-radius:3px;}
+}
+@media screen and (max-width:320px){
+	.contact-info{padding:10px 0px;}
+	.contact-info .top-wrap{font-size:18px;}
+	.contact-info .top-wrap .name{height:25px;line-height:25px;}
+	.contact-info .top-wrap .phone{height:25px;line-height:25px;}
+	.contact-info .top-wrap .right-arrow{top:2px;background-size:15px 21px;width:15px;height:21px;}
+	.contact-info .address{line-height:18px;height:18px;font-size:14px;}
+	.btn-wrap.add .btn-add-addr{width:80%;margin:25px 10%;height:41px;line-height:41px;font-size:16px;}
+}
+@media screen and (max-width:280px){
+	.contact-info .top-wrap{font-size:16px;}
+	.contact-info .top-wrap .name{width:25%;}
+	.contact-info .top-wrap .phone{width:75%;}
+	.contact-info .address{font-size:12px;}
+}

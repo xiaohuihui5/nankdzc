@@ -1,0 +1,69 @@
+html,body{margin:0px;padding:0px;font-family:'Î¢ÈíÑÅºÚ','Arial';}
+body{background-color:#282828;}
+a{color:#2f3f2e;text-decoration:inherit;}
+.container{margin:0 auto;padding:0px;height:100%;max-width:640px;overflow-y:scroll;background-color:#f0f0f0;}
+.form-container{width:90%;margin:20px 5%;}
+.form-container .row{width:100%;height:90px;margin-bottom:24px;position:relative;}
+.form-container .row.m-row{height:65px;}
+.form-container .row.s-row{height:50px;}
+.form-container .row input.txt{font-family:'Î¢ÈíÑÅºÚ','Arial';width:82%;height:70px;padding:9px 2% 9px 16%;border:1px solid #dcdcdc;border-radius:5px;font-size:28px;}
+.form-container .row input.txt.phone{background:url('icon_user_phone.png') #fff no-repeat 20px center;}
+.form-container .row input.txt.pwd{background:url('icon_user_lock.png') #fff no-repeat 20px center;}
+.form-container .row input.txt.code{background:url('icon_verifycode.png') #fff no-repeat 20px center;}
+.form-container .row .btn-send{color:#656565;position:absolute;top:12px;right:15px;width:216px;height:65px;border-radius:5px;border:1px solid #dbdada;background-color:#f6f6f6;font-size:26px;line-height:65px;text-align:center;font-family:'ºÚÌå';}
+.form-container .row .txt-tip{color:red;font-size:18px;margin-left:28px;font-family:'ºÚÌå';}
+.form-container .row .btn-register{color:#fff;background-color:#38b700;font-size:26px;width:90%;height:83px;margin:0 auto;border:0px;border-radius:5px;display:block;font-family:'ºÚÌå';}
+.form-container .row  .btn-pwd{float:right;width:160px;height:50px;line-height:50px;background-color:#f6f6f6;color:#38b700;border-radius:5px;border:1px solid #dbdada;text-align:center;font-size:18px;margin-top:-10px;}
+.form-container .row .txt-tip.error{color:#fb3738;display:block;padding-top:10px;}
+@media screen and (max-width:500px){
+	.form-container .row.m-row{height:62px;}
+	.form-container .row.s-row{height:48px;}
+	.form-container .row{height:86px;margin-bottom:23px;}
+	.form-container .row input.txt{width:78%;height:66px;padding:8px 2% 8px 20%;font-size:32px;}
+	.form-container .row .btn-send{width:205px;height:62px;line-height:62px;font-size:30px;top:11px;right:14px;}
+	.form-container .row .txt-tip{font-size:23px;margin-left:23px;}
+	.form-container .row .btn-register{height:79px;font-size:30px;}
+	.form-container .row  .btn-pwd{width:152px;height:48px;line-height:48px;font-size:23px;}
+}
+@media screen and (max-width:450px){
+	.form-container .row.m-row{height:52px;}
+	.form-container .row.s-row{height:40px;}
+	.form-container .row{height:72px;margin-bottom:19px;}
+	.form-container .row input.txt{height:56px;font-size:22px;padding:8px 2% 8px 22%;}
+	.form-container .row .btn-send{width:173px;height:52px;line-height:52px;font-size:26px;top:10px;right:12px;}
+	.form-container .row .txt-tip{font-size:19px;margin-left:19px;}
+	.form-container .row .btn-register{height:66px;font-size:26px;}
+	.form-container .row  .btn-pwd{width:128px;height:40px;line-height:40px;font-size:19px;margin-top:-8px;}
+}
+@media screen and (max-width:420px){
+	.form-container .row input.txt{width:76%;padding:9px 2% 9px 22%;}
+}
+@media screen and (max-width:375px){
+	.form-container .row.m-row{height:39px;}
+	.form-container .row.s-row{height:30px;}
+	.form-container .row{height:54px;margin-bottom:14px;}
+	.form-container .row input.txt{width:82%;height:42px;font-size:20px;padding:5px 2% 6px 16%;border-radius:4px;}
+	.form-container .row input.txt.phone,.form-container .row input.txt.pwd,.form-container .row input.txt.code{background-size:28px 28px;background-position:12px center;}
+	.form-container .row .btn-send{width:130px;height:39px;line-height:39px;font-size:19px;top:7px;right:9px;border-radius:4px;}
+	.form-container .row .txt-tip{font-size:16px;margin-left:14px;}
+	.form-container .row .btn-register{height:50px;font-size:19px;border-radius:4px;width:80%;}
+	.form-container .row  .btn-pwd{width:96px;height:30px;line-height:30px;font-size:16px;border-radius:4px;margin-top:-6px;}
+}
+@media screen and (max-width:350px){
+	.form-container .row input.txt{width:78%;height:42px;font-size:20px;padding:5px 2% 6px 20%;}
+}
+@media screen and (max-width:320px){
+	.form-container .row.m-row{height:33px;}
+	.form-container .row.s-row{height:25px;}
+	.form-container .row{height:45px;margin-bottom:12px;}
+	.form-container .row input.txt{width:82%;height:35px;font-size:16px;padding:5px 2% 5px 16%;border-radius:3px;}
+	.form-container .row input.txt.phone,.form-container .row input.txt.pwd,.form-container .row input.txt.code{background-size:23px 23px;background-position:10px center;}
+	.form-container .row .txt-tip{margin-left:12px;font-size:14px;}
+	.form-container .row .btn-send{width:108px;height:33px;line-height:33px;font-size:18px;top:6px;right:8px;border-radius:5px;}
+	.form-container .row .btn-register{height:41px;font-size:16px;border-radius:3px;}
+	.form-container .row  .btn-pwd{width:80px;height:25px;line-height:25px;font-size:14px;border-radius:3px;margin-top:-5px;}
+}
+@media screen and (max-width:280px){
+	.form-container .row input.txt{width:78%;padding:5px 2% 5px 20%;}
+	.form-container .row .btn-send{width:97px;height:29px;line-height:29px;right:6px;top:8px;}
+}

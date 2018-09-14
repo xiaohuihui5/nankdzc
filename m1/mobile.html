@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>用户中心_珍宝小镇  </title>
+    <link rel="stylesheet" href="mobile/css/weui.min.css">
+    <link rel="stylesheet" href="mobile/css/jquery-weui.min.css">
+    <script type="text/javascript" src="mobile/js/jquery.min.js"></script>
+    <script type="text/javascript" src="mobile/js/jquery-weui.min.js"></script>
+</head>
+<body>
+<style>
+  .min_head img{
+    width: 2.2em;
+    height: 2.2em;
+  }
+  .min_head{
+    margin-right: .2em;
+    border-radius: 3em;
+  }
+  .two_list li a.weui-cell{
+    padding: 0;
+    width: 100%;
+  }
+  .sign{
+    border: 1px solid #D60711;
+    border-radius: 4px;
+    color: #D60711;
+    /*border: 1px solid #d31e1e;*/
+  }
+  .sign a{
+    color: #D60711;
+  }
+  .searchhead{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+  }
+  .active{
+    background-color: #D60711;
+  }
+  .active a,.active .weui-cell__ft{
+    color: #fff;
+  }
+</style>
+<div class="searchhead">
+  <div class="weui-search-bar" id="searchBar">
+    <form class="weui-search-bar__form" onSubmit="return search();">
+      <div class="weui-search-bar__box">
+        <i class="weui-icon-search"></i>
+        <input type="search" class="weui-search-bar__input" id="searchInput" placeholder="真实姓名搜索" required="">
+        <a href="javascript:" class="weui-icon-clear" id="searchClear"></a>
+      </div>
+      <label class="weui-search-bar__label" id="searchText">
+        <i class="weui-icon-search"></i>
+        <span>真实姓名搜索</span>
+      </label>
+    </form>
+    <a href="javascript:" class="weui-search-bar__cancel-btn" id="searchCancel">取消</a>
+  </div>
+</div>
+<p style="height: 24px;"></p>
+<div id="all_list">
+  <ul class="weui-cells two_list">
+      
+<li data-real_name="陈佳" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>陈佳</p>
+            </div>
+            <div class="weui-cell__ft">零售</div>
+          </a>
+        </li>
+<li data-real_name="徐紫怡" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>徐紫怡</p>
+            </div>
+            <div class="weui-cell__ft">零售</div>
+          </a>
+        </li><li data-real_name="刘香香" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>刘香香</p>
+            </div>
+            <div class="weui-cell__ft">零售</div>
+          </a>
+        </li><li data-real_name="王再英" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>王再英</p>
+            </div>
+            <div class="weui-cell__ft">团购</div>
+          </a>
+        </li><li data-real_name="骆慧娣" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>骆慧娣</p>
+            </div>
+            <div class="weui-cell__ft">零售</div>
+          </a>
+        </li><li data-real_name="陈敏" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>陈敏</p>
+            </div>
+            <div class="weui-cell__ft">团购</div>
+          </a>
+        </li><li data-real_name="周票英" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>周票英</p>
+            </div>
+            <div class="weui-cell__ft">零售</div>
+          </a>
+        </li><li data-real_name="田晓红" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>田晓红</p>
+            </div>
+            <div class="weui-cell__ft">经销商</div>
+          </a>
+        </li><li data-real_name="君萍" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>君萍</p>
+            </div>
+            <div class="weui-cell__ft">零售</div>
+          </a>
+        </li><li data-real_name="秋林" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>秋林</p>
+            </div>
+            <div class="weui-cell__ft">经销商</div>
+          </a>
+        </li><li data-real_name="刘丽莉" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>刘丽莉</p>
+            </div>
+            <div class="weui-cell__ft">联合创始人</div>
+          </a>
+        </li><li data-real_name="陈浪" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>陈浪</p>
+            </div>
+            <div class="weui-cell__ft">总经销</div>
+          </a>
+        </li><li data-real_name="茹静" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>茹静</p>
+            </div>
+            <div class="weui-cell__ft">团购</div>
+          </a>
+        </li><li data-real_name="王欢" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>王欢</p>
+            </div>
+            <div class="weui-cell__ft">团购</div>
+          </a>
+        </li><li data-real_name="杨杰欣" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>杨杰欣</p>
+            </div>
+            <div class="weui-cell__ft">团购</div>
+          </a>
+        </li><li data-real_name="林苗苗" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>林苗苗</p>
+            </div>
+            <div class="weui-cell__ft">零售</div>
+          </a>
+        </li><li data-real_name="翟妙玲" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>翟妙玲</p>
+            </div>
+            <div class="weui-cell__ft">经销商</div>
+          </a>
+        </li><li data-real_name="郭婷婷" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>郭婷婷</p>
+            </div>
+            <div class="weui-cell__ft">零售</div>
+          </a>
+        </li><li data-real_name="陈慧慧" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>陈慧慧</p>
+            </div>
+            <div class="weui-cell__ft">经销商</div>
+          </a>
+        </li><li data-real_name="王以标" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>王以标</p>
+            </div>
+            <div class="weui-cell__ft">零售</div>
+          </a>
+        </li><li data-real_name="刘群" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>刘群</p>
+            </div>
+            <div class="weui-cell__ft">零售</div>
+          </a>
+        </li><li data-real_name="沈敏娟" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>沈敏娟</p>
+            </div>
+            <div class="weui-cell__ft">团购</div>
+          </a>
+        </li><li data-real_name="祝小霞" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>祝小霞</p>
+            </div>
+            <div class="weui-cell__ft">团购</div>
+          </a>
+        </li><li data-real_name="赵丽丽" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>赵丽丽</p>
+            </div>
+            <div class="weui-cell__ft">总经销</div>
+          </a>
+        </li><li data-real_name="胡斌" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>胡斌</p>
+            </div>
+            <div class="weui-cell__ft">零售</div>
+          </a>
+        </li><li data-real_name="唐坚" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>唐坚</p>
+            </div>
+            <div class="weui-cell__ft">经销商</div>
+          </a>
+        </li><li data-real_name="王雪" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>王雪</p>
+            </div>
+            <div class="weui-cell__ft">零售</div>
+          </a>
+        </li><li data-real_name="徐晓萍" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>徐晓萍</p>
+            </div>
+            <div class="weui-cell__ft">经销商</div>
+          </a>
+        </li><li data-real_name="陈美华" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>陈美华</p>
+            </div>
+            <div class="weui-cell__ft">团购</div>
+          </a>
+        </li><li data-real_name="余松" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>余松</p>
+            </div>
+            <div class="weui-cell__ft">经销商</div>
+          </a>
+        </li><li data-real_name="知足常乐" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>知足常乐</p>
+            </div>
+            <div class="weui-cell__ft">团购</div>
+          </a>
+        </li><li data-real_name="轩艳粉" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>轩艳粉</p>
+            </div>
+            <div class="weui-cell__ft">零售</div>
+          </a>
+        </li><li data-real_name="李晓丽" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>李晓丽</p>
+            </div>
+            <div class="weui-cell__ft">团购</div>
+          </a>
+        </li><li data-real_name="刘萍萍" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>刘萍萍</p>
+            </div>
+            <div class="weui-cell__ft">零售</div>
+          </a>
+        </li><li data-real_name="许晓鹃" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>许晓鹃</p>
+            </div>
+            <div class="weui-cell__ft">零售</div>
+          </a>
+        </li><li data-real_name="马碟" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>马碟</p>
+            </div>
+            <div class="weui-cell__ft">零售</div>
+          </a>
+        </li><li data-real_name="孙倩倩" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>孙倩倩</p>
+            </div>
+            <div class="weui-cell__ft">团购</div>
+          </a>
+        </li><li data-real_name="魏飞" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>魏飞</p>
+            </div>
+            <div class="weui-cell__ft">团购</div>
+          </a>
+        </li><li data-real_name="凌月琴" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>凌月琴</p>
+            </div>
+            <div class="weui-cell__ft">团购</div>
+          </a>
+        </li><li data-real_name="蒋佩菊" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>蒋佩菊</p>
+            </div>
+            <div class="weui-cell__ft">团购</div>
+          </a>
+        </li><li data-real_name="王凤玲" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>王凤玲</p>
+            </div>
+            <div class="weui-cell__ft">零售</div>
+          </a>
+        </li><li data-real_name="孙爱娟" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>孙爱娟</p>
+            </div>
+            <div class="weui-cell__ft">团购</div>
+          </a>
+        </li><li data-real_name="李雪" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>李雪</p>
+            </div>
+            <div class="weui-cell__ft">团购</div>
+          </a>
+        </li><li data-real_name="方英" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>方英</p>
+            </div>
+            <div class="weui-cell__ft">团购</div>
+          </a>
+        </li><li data-real_name="孙新煜" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>孙新煜</p>
+            </div>
+            <div class="weui-cell__ft">团购</div>
+          </a>
+        </li><li data-real_name="吴万满" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>吴万满</p>
+            </div>
+            <div class="weui-cell__ft">零售</div>
+          </a>
+        </li><li data-real_name="秦自玲" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>秦自玲</p>
+            </div>
+            <div class="weui-cell__ft">经销商</div>
+          </a>
+        </li><li data-real_name="蔡小玉" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>蔡小玉</p>
+            </div>
+            <div class="weui-cell__ft">团购</div>
+          </a>
+        </li><li data-real_name="赵翠英" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>赵翠英</p>
+            </div>
+            <div class="weui-cell__ft">经销商</div>
+          </a>
+        </li><li data-real_name="来飞" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>来飞</p>
+            </div>
+            <div class="weui-cell__ft">分公司总裁</div>
+          </a>
+        </li><li data-real_name="吕偌溪" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>吕偌溪</p>
+            </div>
+            <div class="weui-cell__ft">总经销</div>
+          </a>
+        </li><li data-real_name="俞虹珍" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>俞虹珍</p>
+            </div>
+            <div class="weui-cell__ft">团购</div>
+          </a>
+        </li><li data-real_name="詹秋林" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>詹秋林</p>
+            </div>
+            <div class="weui-cell__ft">分公司总裁</div>
+          </a>
+        </li><li data-real_name="kaho" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>kaho</p>
+            </div>
+            <div class="weui-cell__ft">零售</div>
+          </a>
+        </li><li data-real_name="轩华丽" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>轩华丽</p>
+            </div>
+            <div class="weui-cell__ft">分公司总裁</div>
+          </a>
+        </li><li data-real_name="郑红林" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>郑红林</p>
+            </div>
+            <div class="weui-cell__ft">零售</div>
+          </a>
+        </li><li data-real_name="林燕婵" class="weui-cell weui-cell_access list_one">
+          <a class="weui-cell" href="#">
+            <div class="weui-cell__hd min_head" >
+              <img src="mobile/img/aaa1.png" class="min_head" onerror="this.src='mobile/img/user68.jpg'" alt=""/>
+            </div>
+            <div class="weui-cell__bd">
+              <p>林燕婵</p>
+            </div>
+            <div class="weui-cell__ft">分公司总裁</div>
+          </a>
+        </li>
+        
+    </ul>
+</div>
+<script>
+  // 定义首个查询下键
+  var active = 0;
+  $('.weui-icon-search').click(function(){
+    search();
+  })
+  function search(){
+    // 获取搜索框的值
+    var kwds = $("#searchInput").val();
+    // 获取第一个列表内容
+    var this_one = {};
+    var real_name = '';
+    // 定义两个数据列表
+    var list = $("#all_list .list_one");
+    // 定义查找的起始值
+    var true_one = 0;
+
+    for (var i = 0; i < list.length; i++) {
+      this_one = $(list[i]);
+      real_name = this_one.data('real_name').toString();
+      // 执行like匹配
+      if(real_name.match(kwds)){
+        // 处理第一个结果
+        if(true_one == active){
+          // 获取窗口的宽和高
+          // var windows_wdh = $(window).width();
+          var windows_hgt = $(window).height();
+          // 获取第一个坐标
+          // var x_len = this_one.offset().left;
+          var y_len = this_one.offset().top;
+          // 驱动滚动条滚动到指定的位置
+          $("html,body").animate({scrollTop:(y_len-windows_hgt/2)},500);
+          // 标记当前选中的结果
+          this_one.addClass('active');
+          this_one.removeClass('sign');
+        }else{
+          // 标记符合的结果
+          this_one.addClass('sign');
+          this_one.removeClass('active');
+        }
+        // 累加真实的选择
+        true_one++;
+      }else{
+        this_one.removeClass('sign');
+        this_one.removeClass('active');
+      }
+    }
+    // 判断是否搜索完毕 如果搜索完毕 则从第一个开始 否则继续搜索下一个
+    active = active >= true_one-1 ? 0 : active+1;
+
+    return false;
+  }
+</script>
+</body>
+</html>

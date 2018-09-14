@@ -1,0 +1,90 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+		<title>个人中心</title>
+		<meta name="Author" content="songjia">
+		<meta name="Keywords" content="">
+		<meta name="Description" content="">
+		<meta name="format-detection" content="telephone=no" />
+		<link rel="stylesheet" href="/html/m/css/utils.css" />
+		<link rel="stylesheet" href="/html/m/css/user-center.css" />
+		<script src="/html/m/js/jquery/jquery-1.11.1.min.js"></script> 
+	</head>
+	<body>
+		<div class="container">
+			<div class="top-wrap">
+				<img src="/html/m/images/user_head.png" class="user-head" />
+				<img class="uc-top-bg" src="/html/m/images/uc_top_bg.png" />
+				<a class="icon-operate"  style="z-index: 1000;"></a>
+				<div id="no_login" class="uc-detail" style="display: none">
+					<span class="prompt">亲，您还没有登录哦！</span>
+					<div class="login-wrap">
+						<a class="btn btn-login" href="/m/user/login">登录</a>
+						<a class="btn btn-register" href="/m/user/register">注册</a>
+					</div>
+				</div>
+				<div id="logined" class="uc-detail" style="display: none">
+					<input type="hidden" id="m_pid" name="m_pid" value="121"/>
+					<span class="prompt">欢迎您~ 13528802383</span>
+					
+				</div>
+				<div class="handle-wrap">
+					<!-- 待收货 -->
+					<div class="handle-inner">
+						<a class="icon-putaway-goods" href="/m/order/unreceived"></a>
+					</div>
+					<div class="split"></div>
+					<!-- 我的订单 -->
+					<div class="handle-inner">
+						<a class="icon-myorder" href="/m/order/all"></a>
+					</div>
+				</div>
+			</div>
+			<div class="detail-wrap">
+				<a class="detail-row" href="/m/user/address">
+					<div class="icon-left addr"></div>
+					<div class="text">
+						<span class="title">我的收货地址</span>
+					</div>
+					<span class="arrow"></span>
+				</a>
+				<a class="detail-row" href="tel:010-58449820">
+					<div class="icon-left service"></div>
+					<div class="text">
+						<div class="phone">010-58449820</div>
+						<div class="time">客服每天8:30到21:00在线</div>
+					</div>
+					<!-- 
+					<span class="arrow"></span>
+					 -->
+				</a>
+			</div>
+		</div>
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57996080-2', 'auto');
+  ga('send', 'pageview');
+
+</script>		<script>
+			$(function(){
+				var screen_height = document.documentElement.clientHeight || window.innerHeight;
+				$("body").height(screen_height);
+				
+				if($("#m_pid").val()!=0){
+					$("#logined").show();
+					$("#no_login").hide();
+				}else{
+					$("#no_login").show();
+					$("#logined").hide();
+				}
+			});
+		</script>
+	</body>
+</html>

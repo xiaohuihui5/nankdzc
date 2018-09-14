@@ -1,0 +1,10 @@
+var songcaige = songcaige||{};
+songcaige.domain = 'http://www.ddcehua.com';
+songcaige.platform = 'Weixin';
+songcaige.deliveryTime = {"SC":["\u65e0\u8981\u6c42","3:00 - 4:00","4:00 - 5:00","5:00 - 6:00"],"CT":["\u65e0\u8981\u6c42","7:00 - 7:30","7:30 - 8:00","8:00 - 8:30","8:30 - 9:00","9:00 - 09:30","9:30 - 10:30"]};
+songcaige.userType = {"USER_TYPE_SC":"SC","USER_TYPE_CT":"CT","USER_TYPE_GUEST":"GUEST"};
+songcaige.userTypeTxt = {"USER_TYPE_SC_TXT":"\u5546\u8d85\u7528\u6237","USER_TYPE_CT_TXT":"\u9910\u5385\u7528\u6237","USER_TYPE_GUEST_TXT":"\u6e38\u5ba2"};
+songcaige.pageEntry = {"PAGE_ENTRY_CT":"CT","PAGE_ENTRY_SC":"SC"};
+songcaige.goodsType = {"GOODS_TYPE_CT":"CT","GOODS_TYPE_SC":"SC","GOODS_TYPE_ALL":"ALL"};
+songcaige.act11 = {c1id:11080,discount:0.98};
+songcaige.feature = {};

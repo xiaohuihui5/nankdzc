@@ -1,0 +1,25 @@
+//$("#"+fillId).empty();
+//storage.get('userInfo');
+// storage.set('userInfo', userInfo);
+
+
+<!--
+    <script src="./js/mainjs" type="text/javascript"></script>
+    <script src="./js/common.js" type="text/javascript"></script>
+    <script>
+        var entry = 'CT'
+    </script>
+    <script src="./js/goods.js" type="text/javascript"></script>
+    <script src="./js/shoppingCart.js" type="text/javascript"></script>
+
+    <script src="./js/goods(1).js" type="text/javascript"></script>
+-->
+
+	//alert($(this).attr('id'));
+	//$('#class2').html('<li class="cp active" id="class21372" btn-type="class2">特价</li><li class="cp " id="class21376" btn-type="class2">烘培佐料</li>');
+
+
+//$('#class2 li').click(function(){
+	//alert($(this).attr('id'));
+	//$('#class2').html('<li class="cp active" id="class21372" btn-type="class2">特价</li><li class="cp " id="class21376" btn-type="class2">烘培佐料</li>');
+	//alert(1);

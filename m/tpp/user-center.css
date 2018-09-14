@@ -1,0 +1,149 @@
+.container .top-wrap{width:100%;overflow:hidden;position:relative;margin-bottom:19px;}
+.container .uc-top-bg{position:relative;top:0px;left:0px;width:100%;background-size:100%;border-bottom:1px solid #e0e0e0;}
+.container .top-wrap .user-head{top:52px;position:absolute;left:50%;margin-left:-80px;width:160px;height:160px;}
+.uc-detail{position:absolute;top:0px;left:0px;width:100%;}
+.container .top-wrap .icon-operate{position:absolute;right:30px;top:30px;background:url('operate.png') no-repeat top left;width:40px;height:40px;}
+.container .top-wrap .prompt{font-family:'ºÚÌå';margin-top:230px;color:#fff;font-size:26px;display:block;text-align:center;}
+.container .top-wrap .login-wrap{height:64px;margin:0 auto;margin-top:34px;width:355px;}
+.container .top-wrap .login-wrap .btn{background:url('btn_bg.png') no-repeat left top;width:164px;height:64px;display:block;float:left;text-align:center;line-height:64px;font-size:32px;}
+.container .top-wrap .login-wrap .btn.btn-login{margin-right:27px;}
+.container .top-wrap .login-wrap .btn a{color:#fff;}
+.container .top-wrap .handle-wrap{position:absolute;bottom:4px;left:0px;width:100%;height:130px;background:url('uc_bottom_bg.png') repeat left top;}
+.handle-wrap .handle-inner{width:49%;height:95%;float:left;}
+.handle-wrap .icon-putaway-goods{background:url('icon_put_away_goods.png') no-repeat center center;display:block;width:96px;height:96px;margin:0 auto;margin-top:17px;}
+.handle-wrap .icon-myorder{background:url('icon_myorder.png') no-repeat center center;display:block;width:96px;height:96px;;margin:0 auto;margin-top:17px;}
+.handle-wrap .split{width:1%;float:left;height:88px;border-right:1px solid #000;margin-top:21px;}
+.container .detail-wrap{background-color:#fff;width:100%;height:176px;border-top:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;margin-bottom:50px;}
+.detail-row{display:block;height:87px;line-height:87px;position:relative;overflow:hidden;}
+.detail-row:first-child{border-bottom:1px solid #e0e0e0;}
+.detail-row .icon-left{width:50px;height:50px;left:30px;top:18px;position:absolute;}
+.detail-row .icon-left.addr{background:url('icon_addr.png') no-repeat left top;}
+.detail-row .icon-left.service{background:url('icon_phone.png') no-repeat left top;}
+.detail-row .text{width:100%;margin-left:100px;}
+.detail-row .text .title{color:#515151;font-size:32px;}
+.detail-row .text .phone{font-family:'Arial';color:#515151;font-size:42px;position:absolute;top:11px;height:35px;line-height:35px;}
+.detail-row .text .time{color:#515151;font-size:20px;position:absolute;height:20px;line-height:20px;bottom:11px;}
+.detail-row .arrow{width:18px;height:26px;background:url('icon_right_arrow.png') no-repeat top left;position:absolute;top:28px;right:28px;}
+@media screen and (max-width:630px){
+  .container .top-wrap .prompt{margin-top:200px;}
+  .container .top-wrap .login-wrap{margin-top:11px;}
+}
+@media screen and (max-width:570px){
+	.container .top-wrap{margin-bottom:17px;}
+	.container .top-wrap .user-head{top:38px;margin-left:-72px;width:144px;height:144px;}
+	.container .top-wrap .icon-operate{width:36px;height:36px;top:27px;right:27px;background-size:36px;}
+	.container .top-wrap .prompt{margin-top:200px;font-size:23px;}
+	.container .top-wrap .login-wrap{margin-top:11px;width:320px;height:58px;}
+	.container .top-wrap .login-wrap .btn{width:148px;height:58px;line-height:58px;font-size:29px;background-size:148px 58px;}
+	.container .top-wrap .login-wrap .btn.btn-login{margin-right:24px;}
+	.container .top-wrap .handle-wrap{height:117px;}
+	.handle-wrap .icon-putaway-goods,.handle-wrap .icon-myorder{width:77px;height:77px;margin-top:14px;background-size:77px;}
+	.handle-wrap .split{height:79px;margin-top:20px;}
+	.detail-row .icon-left.addr,.detail-row .icon-left.service{width:45px;height:45px;top:16px;left:27px;background-size:45px;}
+	.container .detail-wrap{height:158px;}
+	.detail-row{height:78px;line-height:78px;}
+	.detail-row .text{margin-left:90px;}
+	.detail-row .text .title{font-size:29px;}
+	.detail-row .text .phone{font-size:38px;top:10px;height:32px;line-height:32px;}
+	.detail-row .text .time{font-size:18px;bottom:10px;}
+}
+@media screen and (max-width:520px){
+	.container .top-wrap .prompt{margin-top:180px;}
+}
+@media screen and (max-width:490px){
+	.container .top-wrap{margin-bottom:15px;}
+	.container .top-wrap .user-head{top:34px;margin-left:-64px;width:128px;height:128px;}
+	.container .top-wrap .icon-operate{width:32px;height:32px;top:24px;right:24px;background-size:32px;}
+	.container .top-wrap .prompt{margin-top:170px;font-size:21px;}
+	.container .top-wrap .login-wrap{margin-top:10px;width:284px;height:51px;}
+	.container .top-wrap .login-wrap .btn{width:131px;height:51px;line-height:51px;font-size:26px;background-size:131px 51px;}
+	.container .top-wrap .login-wrap .btn.btn-login{margin-right:22px;}
+	.container .top-wrap .handle-wrap{height:104px;}
+	.handle-wrap .icon-putaway-goods,.handle-wrap .icon-myorder{width:77px;height:77px;margin-top:14px;background-size:77px;}
+	.handle-wrap .split{height:70px;margin-top:17px;}
+	.detail-row .icon-left.addr,.detail-row .icon-left.service{width:40px;height:40px;top:16px;left:14px;background-size:40px;}
+	.container .detail-wrap{height:141px;}
+	.detail-row{height:70px;line-height:70px;}
+	.detail-row .text{margin-left:80px;}
+	.detail-row .text .title{font-size:26px;}
+	.detail-row .text .phone{font-size:34px;top:9px;height:30px;line-height:30px;}
+	.detail-row .text .time{font-size:16px;bottom:9px;}
+}
+@media screen and (max-width:470px){
+	.container .top-wrap .prompt{margin-top:160px;font-size:20px;}
+	.container .top-wrap .login-wrap .btn{width:114px;height:45px;line-height:45px;background-size:114px 45px;font-size:22px;}
+	.container .top-wrap .login-wrap{width:249px;height:45px;}
+	.container .top-wrap .handle-wrap{height:91px;}
+	.handle-wrap .icon-putaway-goods, .handle-wrap .icon-myorder{width:67px;height:67px;margin-top:12px;background-size:67px;}
+	.container .top-wrap .login-wrap .btn.btn-login{margin-right:19px;}
+	.handle-wrap .split{height:62px;margin-top:15px;}
+}
+@media screen and (max-width:430px){
+	.container .top-wrap .prompt{margin-top:150px;}
+}
+@media screen and (max-width:414px){
+	.container .top-wrap{margin-bottom:10px;}
+	.container .top-wrap .user-head{top:30px;margin-left:-52px;width:104px;height:104px;}
+	.container .top-wrap .icon-operate{right:20px;top:20px;width:26px;height:26px;background-size:26px;}
+	.container .top-wrap .prompt{margin-top:150px;font-size:20px;}
+	.container .top-wrap .login-wrap{margin-top:10px;width:231px;}
+	.container .top-wrap .login-wrap .btn{width:107px;height:42px;line-height:42px;background-size:107px 42px;font-size:22px;}
+	.container .top-wrap .login-wrap .btn.btn-login{margin-right:17px;}
+	.container .top-wrap .handle-wrap{height:85px;}
+	.handle-wrap .icon-putaway-goods,.handle-wrap .icon-myorder{width:63px;height:63px;background-size:63px;margin-top:10px;}
+	.handle-wrap .split{margin-top:14px;height:57px;}
+	.container .detail-wrap{height:114px;}
+	.detail-row{height:57px;line-height:57px;}
+	.detail-row .icon-left{top:12px;left:20px;}
+	.detail-row .icon-left.addr,.detail-row .icon-left.service{width:33px;height:33px;background-size:33px;}
+	.detail-row .text{margin-left:65px;}
+	.detail-row .text .title{font-size:22px;}
+	.detail-row .text .phone{font-size:28px;top:0px;}
+	.detail-row .text .time{font-size:15px;bottom:5px;}
+	.detail-row .arrow{top:18px;right:18px;}
+}
+@media screen and (max-width:375px){
+	.container .top-wrap .prompt{margin-top:140px;}
+	.container .top-wrap .handle-wrap{height:78px;}
+	.handle-wrap .icon-putaway-goods, .handle-wrap .icon-myorder{margin-top:8px;}
+	.handle-wrap .split{margin-top:12px;}
+}
+@media screen and (max-width:350px){
+	.container .top-wrap .user-head{top:32px;width:80px;height:80px;margin-left:-40px;}
+	.container .top-wrap .prompt{margin-top:125px;font-size:14px;}
+	.container .top-wrap .login-wrap .btn{width:82px;height:32px;line-height:32px;background-size:82px 32px;font-size:16px;}
+	.container .top-wrap .login-wrap{width:178px;height:32px;margin-top:10px;}
+	.container .top-wrap .login-wrap .btn.btn-login{margin-right:14px;}
+	.container .top-wrap .handle-wrap{height:65px;}
+	.handle-wrap .icon-putaway-goods, .handle-wrap .icon-myorder{width:56px;height:56px;background-size:56px;margin-top:4px;}
+	.handle-wrap .split{margin-top:10px;height:44px;}
+	.container .detail-wrap{height:88px;}
+	.detail-row{height:43px;}
+	.detail-row .icon-left.addr, .detail-row .icon-left.service{width:25px;height:25px;top:9px;left:15px;background-size:25px;}
+	.detail-row .text .title{font-size:18px;}
+	.detail-row .text .phone{font-size:24px;}
+	.detail-row .text .time{font-size:14px;}
+	.detail-row{height:43px;line-height:45px;}
+	.detail-row .text{margin-left:50px;}
+	.detail-row .text .phone{height:25px;line-height:25px;}
+	.detail-row .text .time{bottom:0px;}
+	.detail-row .arrow{top:14px;right:15px;background-size:14px;}
+}
+@media screen and (max-width:320px){
+	.container .top-wrap .user-head{top:26px;width:80px;height:80px;margin-left:-40px;}
+	.container .top-wrap .prompt{margin-top:115px;}
+}
+@media screen and (max-width:290px){
+	.container .top-wrap .prompt{margin-top:105px;}
+}
+@media screen and (max-width:270px){
+	.container .top-wrap .prompt{margin-top:95px;}
+	.container .top-wrap .login-wrap{width:142px;height:26px;margin-top:14px;}
+	.container .top-wrap .login-wrap .btn{width:66px;height:26px;line-height:26px;background-size:66px;font-size:14px;}
+	.container .top-wrap .login-wrap .btn.btn-login{margin-right:10px;}
+	.container .top-wrap .handle-wrap{height:52px;}
+	.handle-wrap .icon-putaway-goods, .handle-wrap .icon-myorder{width:38px;height:38px;margin-top:7px;background-size:38px;}
+	.handle-wrap .split{height:35px;margin-top:8px;}
+	.detail-row .text .title{font-size:16px;height:40px;line-height:40px;}
+	.detail-row .text .phone{font-size:20px;}
+}

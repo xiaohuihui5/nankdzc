@@ -1,0 +1,138 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+		<title>商圈选择</title>
+		<meta name="Author" content="songjia">
+		<meta name="Keywords" content="">
+		<meta name="Description" content="">
+		<script src="/html/m/js/jquery/jquery-1.11.1.min.js"></script>
+		<script src="/html/m/js/recommend.js"></script>
+		<link rel="stylesheet" href="/html/m/css/utils.css" />
+		<link rel="stylesheet" href="/html/m/css/recommend.css" />
+		<link rel="stylesheet" href="/html/m/css/search.css" />
+	</head>
+	<body>
+		<div class="top-float-layer">
+			<div class="posi">
+				<div class="nav-down" id="nav_down">
+					<ul>
+						<li id="cate_name" value="" style=" display: inline;float: none;"><a style="background:white;text-align: center;">请选择商圈</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="float-height"></div>
+			<div class="delivery-list" style="margin-top: 10px;">
+			 				<div class="delivery-wrap">
+					<div class="delivery-info">
+						<div class="delivery">
+							<a class="title">回龙观商圈</a>
+							<input type="hidden" value="1"></input>
+						</div>
+						<div class="addr">
+							<span>北京市昌平区</span>
+						</div>
+					</div>
+				</div>
+								<div class="delivery-wrap">
+					<div class="delivery-info">
+						<div class="delivery">
+							<a class="title">天通苑商圈</a>
+							<input type="hidden" value="2"></input>
+						</div>
+						<div class="addr">
+							<span>北京市昌平区</span>
+						</div>
+					</div>
+				</div>
+								<div class="delivery-wrap">
+					<div class="delivery-info">
+						<div class="delivery">
+							<a class="title">五道口商圈</a>
+							<input type="hidden" value="3"></input>
+						</div>
+						<div class="addr">
+							<span>五道口商圈</span>
+						</div>
+					</div>
+				</div>
+								<div class="delivery-wrap">
+					<div class="delivery-info">
+						<div class="delivery">
+							<a class="title">知春路商圈</a>
+							<input type="hidden" value="4"></input>
+						</div>
+						<div class="addr">
+							<span>知春路商圈</span>
+						</div>
+					</div>
+				</div>
+								<div class="delivery-wrap">
+					<div class="delivery-info">
+						<div class="delivery">
+							<a class="title">中关村商圈</a>
+							<input type="hidden" value="5"></input>
+						</div>
+						<div class="addr">
+							<span>北京市海淀区</span>
+						</div>
+					</div>
+				</div>
+								<div class="delivery-wrap">
+					<div class="delivery-info">
+						<div class="delivery">
+							<a class="title">魏公村商圈</a>
+							<input type="hidden" value="6"></input>
+						</div>
+						<div class="addr">
+							<span>北京市海淀区</span>
+						</div>
+					</div>
+				</div>
+							</div>			
+						</div>
+		
+		<script>
+		$(function(){
+			
+			$('.delivery-wrap').click(function(){
+				var market_id = $(this).find('input').val();
+				window.location.href="/m/shop/homepage?market_id="+market_id;
+			})
+			
+			$("#view_more").click(function(){
+					var pageNo = 1;
+				        jQuery.ajax( {
+							url : '/m/market/list',
+							type : 'GET',
+							data : {
+								isAjax : true,
+								flag   : 1,
+								pageNo : pageNo
+							},
+							dataType : 'html',
+							error : function() {
+								showMsg('操作出现错误！');
+							},
+							success : function(data) {
+								 $("div[class=delivery-list]").append(data);
+							}
+						})
+			});
+		})
+		</script>
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57996080-2', 'auto');
+  ga('send', 'pageview');
+
+</script>	</body>
+</html>

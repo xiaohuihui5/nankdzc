@@ -1,0 +1,112 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:.39in .2in .39in .2in;
+	mso-header-margin:0in;
+	mso-footer-margin:0in;
+	mso-horizontal-page-align:center;}
+</style>
+<STYLE type=text/css>
+A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #4455aa; TEXT-DECORATION: underline
+}
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #ffffff;
+SCROLLBAR-ARROW-COLOR: #FFffff;
+SCROLLBAR-3DLIGHT-COLOR: #d1d7dc;
+scrollbar-Base-Color: #d1d7dc;
+SCROLLBAR-TRACK-COLOR: #efefef;
+}
+TD {
+	FONT-SIZE: 12pt; LINE-HEIGHT: 15px; FONT-FAMILY: 宋体; word-break:break-all;
+}
+TH {
+	FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(im/a3.gif); COLOR: white; BACKGROUND-COLOR: #4455aa
+}
+TD.TableTitle2 {
+	BACKGROUND-COLOR: #e4e8ef
+}
+TD.TableBody1 {
+	BACKGROUND-COLOR: #ffffff}
+TD.TableBody2 {
+	BACKGROUND-COLOR: #e4e8ef}
+TD.TopDarkNav {
+	BACKGROUND-IMAGE: url(skin/citye/a12.gif)
+}
+TD.TopLighNav {
+	BACKGROUND-IMAGE: url(im/a1.gif)
+}
+TD.TopLighNav1 {
+	BACKGROUND-IMAGE: url(im/a2.gif)
+}
+TD.TopLighNav2 {
+	BACKGROUND-COLOR: #ffffff
+}
+.tableBorder1 {
+	BORDER-RIGHT: 1px; BORDER-TOP: 1px; BORDER-LEFT: 1px; WIDTH: 97%; BORDER-BOTTOM: 1px; BACKGROUND-COLOR: #6595d6}
+.tableBorder2 {
+	BORDER-RIGHT: #dedede 1px solid; BORDER-TOP: #dedede 1px solid; BORDER-LEFT: #dedede 1px solid; WIDTH: 97%; BORDER-BOTTOM: #dedede 1px solid; BACKGROUND-COLOR: #efefef
+}
+.tableBorder3 {
+	BORDER-RIGHT: 1px; BORDER-TOP: 1px; BORDER-LEFT: 1px; WIDTH: 100%; BORDER-BOTTOM: 1px; BACKGROUND-COLOR: #6595d6}
+#TableTitleLink A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+#TableTitleLink A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+#TableTitleLink A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+#TableTitleLink A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.normalTextSmall {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: 宋体
+}
+</STYLE>
+</head>
+<BODY leftMargin=0 topMargin=0 marginheight="0" marginwidth="0"  width="756" style="width:756px;">
+
+	<table border="1" cellpadding="0"  width="750" cellspacing="0" style="width:750px;word-break:break-all;border-collapse: collapse; FONT-SIZE: 16pt; FONT-FAMILY: 宋体;" bordercolor="#111111">
+<colgroup>
+<col style="width:50px;">
+<col style="width:130px;">
+<col style="width:160px;" >
+<col style="width:40px;">
+<col style="width:40px;">
+<col style="width:50px;">
+<col style="width:90px;">
+<col style="width:190px;">
+</colgroup>
+<tr><td colspan="8" align=center  width="6" >
+<br><b>2015-06-17客户预订统计表</b></font>
+</td></tr>
+	<tr>
+	<td align=center><b>序</b></td>
+	<td align=center><b>客户名称</b></td>
+	<td align=center><b>产品名称</b></td>
+	<td align=center>数量</td>
+	<td align=center>规格</td>
+	<td align=center>重量</td>
+	<td align=center><b>&nbsp;备&nbsp;注&nbsp;</b></td>
+	<td align=center>&nbsp;&nbsp;&nbsp;<b>配货数</b>&nbsp;&nbsp;&nbsp;</td>
+	</tr>
+	<tr><td>1</td><td rowspan=6>佳宜（总店）</td><td>排骨</td><td align=center></td><td>块 </td><td align=right>27.1</td><td></td><td>&nbsp;</td></tr><tr><td>2</td><td>大骨</td><td align=center></td><td>块  </td><td align=right>16.6</td><td></td><td>&nbsp;</td></tr><tr><td>3</td><td>瘦肉</td><td align=center></td><td></td><td align=right>10.4</td><td></td><td>&nbsp;</td></tr><tr><td>4</td><td>猪脚</td><td align=center></td><td>个 </td><td align=right>15.0</td><td></td><td>&nbsp;</td></tr><tr><td>5</td><td>猪粉肠</td><td align=center></td><td></td><td align=right>2.0</td><td></td><td>&nbsp;</td></tr><tr><td>6</td><td>牛肉</td><td align=center></td><td></td><td align=right>3.9</td><td></td><td>&nbsp;</td></tr>	</table>
+</body>

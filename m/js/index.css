@@ -1,0 +1,95 @@
+﻿
+@charset "utf-8";
+/*=======全局公共样式部分======*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,acronym,address,cite,code,del,dfn,em,font,img,strong,sub,sup,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;}
+ol,ul{list-style:none;}
+a:link,a:hover,a:visited,a:active{text-decoration:none;}
+table{border-collapse:collapse;border-spacing:0;}
+.fl{float:left;}.fr{float:right;}
+.clear{clear:both;height:0;overflow:hidden;}
+
+
+.pad10{padding:10px;}
+.padtop20{padding-top:20px;} .fz{font-size:0;}
+.padt_b10{padding:10px 0;}
+.ofh{overflow:hidden;}
+.moa{margin:0 auto;}
+
+.ind_24px{text-indent:2em;}
+.font13px{ font-size:13px;}
+.padtop20px{ padding:15px 0;}
+
+body{background:#f6f6f6;color:#333;font:14px/22px "微软雅黑";text-align:left;}
+
+a.f60_btn:link,a.f60_btn:hover,a.f60_btn:active,a.f60_btn:visited{ background-color:#ee3231; line-height:40px; border-radius:4px; text-align:center; color:#fff; font-size:17px; font-weight:bold; display:block; width:96%; margin:10px auto;}
+a.hs_btn:link,a.hs_btn:hover,a.hs_btn:active,a.hs_btn:visited{ background-color:#999; line-height:40px; border-radius:4px; text-align:center; color:#fff; font-size:17px; font-weight:bold; display:block; width:96%; margin:10px auto;}
+
+
+
+.wrap{ padding:10px;}
+
+/*---------------注册----------------*/
+.tabBox_col .hd{height:42px; background-color:#fff;}
+.tabBox_col .hd ul li{float:left;width:50%;display:block;border_bottom:1px solid #ddd;border-top:none; }
+.tabBox_col .hd ul li a{display:block;text-align:center;font:bold 16px/41px "微软雅黑";color:#333;border-bottom:1px solid #ddd;}
+.tabBox_col .hd ul li.on a{color:#fff;border-bottom:2px solid #fff;height:40px;background: #e2120a; } 
+.tabBox_col .bd li a{ -webkit-tap-highlight-color:rgba(0,0,0,0); }  /* 去掉链接触摸高亮 */
+.tabBox_col .hd ul{ width:100%; }
+
+
+.coll_box{ padding:20px 10px;}
+.coll_box table tr td{ line-height:30px; padding:5px 0px; color:#333;  font-size:16px;}
+.coll_box table tr td input{padding:3px 0; border:1px solid #999; background-color:#fff; text-indent:5px; line-height:24px; font-size:14px; width:99%; color:#b4b4b4; border-radius:4px;}
+.coll_box table tr td .f60{ font-size:13px; color:#f60; line-height:20px;  padding:2px 0;}
+.coll_box table tr td.txt_fr{ text-align:right; padding-right:4px; font-weight:bold;}
+
+a.ggsc:link,a.ggsc:hover,a.ggsc:active,a.ggsc:visited{ margin-top:5px; line-height:30px; border-radius:4px; text-align:center; color:#333; font-size:14px;  display:block; width:80px; background-color:#ddd; margin-left:10px;}
+
+/*---------------大陆----------------*/
+.top{ height:40px;  line-height:40px;
+ background-image: -moz-linear-gradient(top, #e2120a, #d83326); /* Firefox */
+ background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e2120a), color-stop(1, #d83326)); /* Saf4+, Chrome */
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e2120a', endColorstr='#d83326', GradientType='0'); /* IE*/
+-moz-box-shadow:0px 1px 3px #666;               /* For Firefox3.6+ */
+	-webkit-box-shadow:0px 1px 3px #666;            /* For Chrome5+, Safari5+ */
+	box-shadow:0px 1px 3px #666; 
+}
+.top h2{  color:#fff; font-size:18px; text-align:center;}
+
+
+.top table tr td{ line-height:40px;}
+.top table tr td h2{  padding-left:15px; color:#fff; font-size:18px;}
+.top table tr td a.return_btn{ background:url(../images/return_btn.png) no-repeat 10px 10px; background-size:20px 20px; height:40px; width:40px; display:block;}
+
+
+
+.zl_tab{ padding:10px 10px;}
+.zl_tab table tr td{ line-height:28px; padding:4px 0px; color:#333;  font-size:14px;}
+.zl_tab table tr td .inputed{padding:3px 0; border:1px solid #777; background-color:#fff; text-indent:5px; line-height:22px; font-size:14px; width:99%; color:#999; border-radius:4px;}
+.zl_tab table tr td .sel_1{ width:48%; height:26px; margin-right:2px; background-color:#fff; border:1px solid #777;}
+.zl_tab table tr td .sel_2{ width:99%;height:26px;background-color:#fff; border:1px solid #777;}
+.zl_tab table tr td .f60{ font-size:13px; color:#f60; line-height:20px;  padding:2px 0;}
+.zl_tab table tr td img{ float:left;}
+.zl_tab table tr td.txt_fr{ text-align:right; padding-right:5px; font-weight:bold;}
+.zl_tab table tr td.titeda{color:#777; font-size:16px; font-weight:bold; line-height:24px;}
+.zl_tab table tr td textarea{ border:1px solid #777;background-color:#fff;border-radius:4px; color:#777; padding:0 5px; line-height:22px; height:60px; width:98%;}
+.btn_tab tr td{ padding:0 10px;}
+
+
+.tip_box_2{background-color:#fff; width:80%; border-radius:6px;}
+.xzyy_txt{width:100%;  padding:15px 0; margin-bottom:10px; border-bottom:1px solid #ddd; text-align:center; font-size:14px; color:#333;}
+
+.tc_tab tr td{ font-size:16px; font-weight:bold; line-height:24px; padding-bottom:5px; border-bottom:1px solid #999;}
+
+
+/*
+.wrap_pos{ background-color:#e3473b; width:100%; min-width:320px; padding-bottom:8%;}
+*/
+.wrap_pos{ background-color:#e3473b; width:100%; min-width:320px; height:100%;}
+.wrap_pos{ background-color:#e3473b; width:100%; min-width:320px; padding-bottom:8%;}
+.wrap_pos table{ width:90%; margin:0 auto;}
+.wrap_pos table td{ padding:10px;}
+
+.share_txt{ padding:20px 15px; line-height:26px; font-size:16px;}
+.share_txt span{color:#e2120a;}
+.shar_sm{color:#e2120a; font-size:16px; font-weight:bold; line-height:30px; margin-top:50px; text-align:right;}

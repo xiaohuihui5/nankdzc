@@ -1,0 +1,114 @@
+/*导航样式*/
+aside{
+	/*
+	background:#dff0d8!important;
+	*/
+	
+}
+aside .menu_dropdown{
+	
+}
+aside .menu_dropdown dl{
+	/*background:#d9edf7;*/
+}
+aside .menu_dropdown dl:hover{
+	/*background:#f5fafe;*/
+}
+aside .menu_dropdown dl:visited{
+	border-left: 4px solid #19aa8d;
+	/*background:#f5fafe;*/
+}
+aside .menu_dropdown dl dt{
+	border-bottom:none;
+}
+aside .menu_dropdown dl dd{
+	background:#f5fafe;
+}
+aside .menu_dropdown dl dd ul{
+	
+}
+aside .menu_dropdown dl dd ul li:hover{
+	background:#31708f!important;
+}
+.breadcrumb a i{
+	color:green;
+}
+/*用户基本样式*/
+#th tr th{
+	background:#f5f5f5!important;
+}
+.tableborder3 tr:hover{
+	
+}
+#bianji{
+	background:#49b1f3;
+	padding:2px 15px;
+}
+.btn_new{
+	background:none;
+	border:none;
+	border-left:1px solid #ddd;
+}
+.cl span a i{
+	color:orange;
+}
+.color-ccc{
+	background:#ccc;
+}
+/*销售记录*/
+.tableborder3 tr td input{
+	height:100%!important;
+} 
+.hetable{
+	width:80%;
+}
+#success{
+	padding: 5px 10px;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+	background-color: #8dbd8d;
+}
+.xhxp font{
+	color:red;
+}
+.breadcrumb .r:hover{
+	background:#f5f5f5;
+}
+/*弹出层样式*/
+#d_b{
+	border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.tishi{
+	width: 93%;
+    height: 25px;
+    border: 1px solid #bce8f1;
+    background: #d9edf7;
+    text-align: left;
+    line-height: 25px;
+    border-radius: 5px;
+    margin:10px auto;
+}
+td .sos a{
+	float:left;
+	line-height:30px;
+	width:50px;
+	height:30px;
+	margin:5px 138px;
+	background:#1ab394;
+	border-radius:5px;
+}
+/*销售录入详细页面*/
+
+/*日期*/
+.MTitle{
+	background:#317d31!important;
+}
+.Wselday{
+	background:#317d31!important;
+}
+/*删除*/
+.delcom{
+	background:#ccc!important;
+}

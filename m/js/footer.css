@@ -1,0 +1,21 @@
+.patrick-box{width: 100%;height: 100%;display: -webkit-box;-webkit-box-orient:vertical;position: absolute;top:0;left: 0;}
+.footer {z-index:99999;height: 48px;background-color: #f0f;bottom: 0px;width: 100%;background-color: #eeeeee;display: -webkit-box;-webkit-box-align:center;-webkit-box-orient:horizontal;-webkit-box-pack:center;
+	position: fixed;bottom: 0px;
+}
+.footer .footer-left{font-size: 14px;color: #f24b48;display: -webkit-box;border-radius:5px;height: 40px;width:145px;-webkit-box-align:center;-webkit-box-pack:center;background-color: #eeeeee;margin-right: 3px;}
+.footer .footer-left.btn-back{background-color:#fca745;color:#ffffff;}
+.footer .footer-right{font-size: 14px;color:#ffffff;border-radius:5px;background-color: #ff6767;display: -webkit-box;height: 40px;width:145px;-webkit-box-align:center;-webkit-box-pack:center;margin-left: 3px;}
+.footer .footer-right.btn-disabled{font-size: 14px;color:#fff;border-radius:5px;background-color: #ccc;display: -webkit-box;height: 40px;width:145px;-webkit-box-align:center;-webkit-box-pack:center;margin-left: 3px;}
+.footer .footer-single-btn{font-size: 14px;color:#ffffff;border-radius:5px;background-color: #ff6767;display: -webkit-box;height: 40px;width:158px;-webkit-box-align:center;-webkit-box-pack:center;}
+.footer .footer-rightBG {font-size: 14px;position: absolute;
+display: -webkit-box;
+height: 48px;
+-webkit-box-align: center;
+-webkit-box-pack: center;}
+
+.js-footer {position:fixed;bottom:0;background-color:#fff;height: 50px;line-height: 50px;width: 100%;border-top: 1px solid #eee;text-align: center;font-size: 14px;}
+.js-footer .fontB{font-weight: bold;}
+.price { color: red;}
+.btn {display: inline-block;margin-bottom: 0;font-weight: 400;text-align: center;vertical-align: middle;cursor: pointer;background-image: none;border: 1px solid transparent;white-space: nowrap;padding: 6px 12px;font-size: 14px;line-height: 1.42857143;border-radius: 4px;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+.btn-default {color: #333;background-color: #fff;border-color: #ccc;text-decoration: none;}
+.btn-yucai {color: #fff;background-color: #21b387;}

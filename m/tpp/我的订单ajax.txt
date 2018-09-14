@@ -1,0 +1,83 @@
+
+<div class="order">
+	<a href="/m/order/detail?order_id=2015020717160617007">
+	<div class="detail">
+		<span id="2015020717160617007">订单号：2015020717160617007</span>
+		<span id="order_time">下单时间：2015-02-07 17:16:06</span>
+		<span id="order_price">订单金额：3.00</span>
+	</div>
+	
+	<div class="goods-list">
+		<div class="pic-wrap" id="pic_wrap_1">
+			<div class="g-pic-wrap" id="pic_list_1">
+					<div class="g-pic">
+					<img src="http://img.tianpingpai.com/images/category/23/16142603_sucai.png?imageMogr2/auto-orient/thumbnail/116x116!/strip/quality/80/format/jpg/interlace/1" >
+				</div>
+				</div>
+		</div>
+	</div>
+	</a>
+	<div class="state-wrap">
+		<span class="state">订单状态：待卖家确认</span>
+		<input type="hidden" value="1"></input>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<div class="order">
+	<a href="/m/order/detail?order_id=2015020715285355061">
+	<div class="detail">
+		<span id="2015020715285355061">订单号：2015020715285355061</span>
+		<span id="order_time">下单时间：2015-02-07 15:28:53</span>
+		<span id="order_price">订单金额：1.00</span>
+	</div>
+	
+	<div class="goods-list">
+		<div class="pic-wrap" id="pic_wrap_2">
+			<div class="g-pic-wrap" id="pic_list_2">
+					<div class="g-pic">
+					<img src="http://img.tianpingpai.com/images/category/66/16144826_bailuobo.png?imageMogr2/auto-orient/thumbnail/116x116!/strip/quality/80/format/jpg/interlace/1" >
+				</div>
+				</div>
+		</div>
+	</div>
+	</a>
+	<div class="state-wrap">
+		<span class="state">订单状态：待卖家确认</span>
+		<input type="hidden" value="1"></input>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<div class="order">
+	<a href="/m/order/detail?order_id=2015020118463924873">
+	<div class="detail">
+		<span id="2015020118463924873">订单号：2015020118463924873</span>
+		<span id="order_time">下单时间：2015-02-01 18:46:39</span>
+		<span id="order_price">订单金额：2.70</span>
+	</div>
+	
+	<div class="goods-list">
+		<div class="pic-wrap" id="pic_wrap_3">
+			<div class="g-pic-wrap" id="pic_list_3">
+					<div class="g-pic">
+					<img src="http://img.tianpingpai.com/images/category/23/16142603_sucai.png?imageMogr2/auto-orient/thumbnail/116x116!/strip/quality/80/format/jpg/interlace/1" >
+				</div>
+				</div>
+		</div>
+	</div>
+	</a>
+	<div class="state-wrap">
+		<span class="state">订单状态：待卖家确认</span>
+		<input type="hidden" value="1"></input>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<div class="page_no">
+	<input class="page_temp" type="hidden" value="1"></input>
+	<input class="count_temp" type="hidden" value="3"></input>
+</div>
+<script>
+	$(function(){
+		$('#page').val($('.page_no:last .page_temp').val());
+		$('#count').val($('.page_no:last .count_temp').val());
+	})
+</script>

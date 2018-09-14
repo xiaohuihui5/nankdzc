@@ -1,0 +1,45 @@
+
+A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #4455aa; TEXT-DECORATION: underline
+}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  微软雅黑;
+background-color: #ffffff;
+SCROLLBAR-ARROW-COLOR: #FFffff;
+SCROLLBAR-3DLIGHT-COLOR: #d1d7dc;
+scrollbar-Base-Color: #d1d7dc;
+SCROLLBAR-TRACK-COLOR: #efefef;
+margin:0;
+}
+html { overflow-x:hidden; overflow-y:scroll;overflow:-moz-scrollbars-vertical;}
+TD {
+	FONT-SIZE: 12px; FONT-FAMILY: 微软雅黑; border:solid #dedfde 1px;height:30px;text-align:center;
+}
+TH {
+	FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(../im/a3.gif); COLOR: white; BACKGROUND-COLOR: #4455aa
+}
+.tableBorder3 {
+	border-collapse:collapse;border:none;width: 100%;table-layout:fixed;word-wrap:break-word;
+}
+.TitleColor {
+	color: #FF0000;/*页面标题字体*/
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 18px;
+}
+td input{height:18px;background-color:#cccccc63;margin-top:-1px;margin-bottom:-1px;width:100%;border:none;}
+/*禁用与否的样式*/
+a span{background-color:#999999;padding:2px 10px;border-radius:3px;color:#fff;font-weight: bold;}
+#success{background-color:#5EB95E;}

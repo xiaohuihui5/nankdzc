@@ -1,0 +1,83 @@
+A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #c0c0c0; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff6600; TEXT-DECORATION: none
+}
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  ËÎÌו;
+background-color: #ffffff;
+SCROLLBAR-ARROW-COLOR: #FFffff;
+SCROLLBAR-3DLIGHT-COLOR: #d1d7dc;
+scrollbar-Base-Color: #d1d7dc;
+SCROLLBAR-TRACK-COLOR: #efefef;
+margin:0;
+}
+
+.tableBorder3 {
+	border-collapse:collapse;border:none;width: 100%;
+	
+}
+#kong{
+			margin-right:3px; 
+		}
+/*------------???-------------*/
+.lc-layout-down{
+	position:absolute;
+	display:none;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	z-index:800;
+	background-color:#000;
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	opacity:0.5;
+}
+.lc-layout-up{
+	position:absolute;
+	display:none;
+	left:50%;
+	top:480px;
+	z-index:1000;
+	background-color:#fff;
+	border-radius:2px;
+	box-shadow: 0 0 5px #333;
+}
+.lc-layout-up-title{
+	position:absolute;
+	width:100%;
+	margin-top:6px;
+	text-align:center;
+}
+.lc-layout-up-close{
+	position:relative;
+	float:right;
+	display:block;
+	width:20px;
+	height:20px;
+	margin-right:20px;
+	background:url(../im/lauout-close.png) no-repeat 0 0;
+	cursor:pointer;
+	-webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.lc-layout-up-close:hover{background:url(../im/lauout-close.png) no-repeat 0 -20px;}
+.lc-layout-up-content{
+	position:absolute;
+	color:#666;
+	font-size:13px;
+}
+/*------------??? end-------------*/

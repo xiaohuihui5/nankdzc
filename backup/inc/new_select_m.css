@@ -1,0 +1,71 @@
+body{
+	font-family:"微软雅黑";
+}
+.table_box{
+	width:100%;
+	position:absolute;
+}
+.table_box tr{
+	background:#fff;
+}
+.table_box tr th{
+	width:100%;
+	height:50px;
+}
+.table1 tr{
+	width:100%;
+	height:50px;
+}
+.table1 tr td select{
+	width:80%;
+	height:30px;
+}
+.table1 tr td input{
+	width:80%;
+	height:30px;
+}
+.table1 tr td a{
+	float: right;
+    width: 55px;
+    height: 30px;
+    padding-top: 5px;
+	margin-right: 17px;
+}
+.table1 tr td a i{
+	font-size:25px;
+	margin-left:-90px;
+}
+.table2 a i{
+	font-size:25px;
+	color:#ff6600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

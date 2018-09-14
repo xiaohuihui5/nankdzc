@@ -1,0 +1,84 @@
+.title{
+		width: 80%;
+		height: 50px;
+		text-align: center;
+		font-size: 32px;
+		margin:10px auto;
+	}
+	.text{
+		width: 100%;
+	}
+	.text .con{
+		width: 100%;
+	}
+	.text .con span{
+		float: left;
+		width: 50px;
+		height: 34px;
+		border:1px solid #ccc;
+		margin:5px 0px 5px 38px;
+		border-right: none;
+	}
+	.text .con span i{
+		font-size: 28px;
+		margin:0 10px;
+		color: red;
+	}
+	.text .con #username{
+		width: 60%;
+		height: 30px;
+		margin: 5px 0 5px 0px;
+	}
+	.text .con #pwd{
+		width: 60%;
+		height: 30px;
+		margin: 5px 0 5px 0px;
+	}
+	.text .con #code{
+		width: 35%;
+		height: 30px;
+		margin: 5px 0 5px 0px;
+	}
+	.text .con img{
+		float: right;
+		width: 70px;
+		height: 28px;
+		border:1px solid #ccc;
+		margin:8px 38px 0 0;
+	}
+	.text #submit{
+		clear: both;
+		width: 78%;
+		height: 35px;
+		margin: 20px 38px;
+		border-radius: 8px;
+		background: #eb5635;
+		border:none;
+		color: #fff;
+	}
+@media screen and (min-width:640px){
+	body{
+		background: url('../im/beijing.jpg');
+	}
+	.logn{
+		width: 330px;
+		position: fixed;
+		top: 100px;
+		right: 400px;
+		border: 1px solid #ccc;
+		border-radius: 10px;
+	}
+}
+
+@media screen and (max-width:640px)
+{
+	body{
+		background: url('../im/beijing.jpg');
+	}
+	.logn{
+		width: 330px;
+		margin:100px auto;
+		border: 1px solid #ccc;
+		border-radius: 10px;
+	}
+}

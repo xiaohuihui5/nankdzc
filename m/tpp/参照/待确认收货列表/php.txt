@@ -1,0 +1,102 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+		<title>待收货订单</title>
+		<meta name="Author" content="songjia">
+		<meta name="Keywords" content="">
+		<meta name="Description" content="">
+		<link rel="stylesheet" href="/html/m/css/utils.css" />
+		<link rel="stylesheet" href="/html/m/css/received.css" />
+		<script src="/html/m/js/jquery/jquery-1.11.1.min.js"></script>
+		<script src="/html/m/js/order.js"></script>
+	</head>
+	<body>
+	<!-- 
+	
+		<div class="top-float-layer">
+			<div class="posi">
+				<div class="handle">
+					<a class="back" href="/m/user/center">返回</a>
+				</div>
+			</div>
+		</div>
+		 -->
+		<div class="container">
+			<div class="float-height"></div>
+			<div class="order-list">
+			</div>
+				<input id="page" type="hidden" value=""></input>
+				<input id="count" type="hidden" value=""></input>
+				 				 <div id="view_more" style="text-align:center;font-size: 14px;">
+					点击加载更多
+				 </div>
+				 				
+		</div>
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57996080-2', 'auto');
+  ga('send', 'pageview');
+
+</script>	</body>
+	
+	<script>
+			$(function(){
+				jQuery.ajax( {
+					url : '/m/order/getUnReceivedOrderAjax',
+					type : 'GET',
+					data : {
+						isAjax : true,
+						flag : 1
+					},
+					dataType : 'html',
+					error : function() {
+						showMsg('操作出现错误！');
+					},
+					success : function(data) {
+						 $("div[class=order-list]").html(data);
+						 //$("#bott").append("<button id='view_more'>点击加载更多</button>");
+					}
+				});
+				
+				$("#conf").click(function(){
+					if(!confirm('确认收货吗 ？')){
+						return false;
+					}
+				});
+				
+				$("#view_more").click(function(){
+		    	 	if($('#count').val()<10){
+		    	 		alert("没有更多订单！");
+		    	 		return false;
+		    	 	}
+					var page = $('#page').val();//当前页码 
+			        jQuery.ajax( {
+						url : '/m/order/getUnReceivedOrderAjax',
+						type : 'GET',
+						data : {
+							isAjax : true,
+							page : page,
+							date_type : date_type
+						},
+						dataType : 'html',
+						error : function() {
+							showMsg('操作出现错误！');
+						},
+						success : function(data) {
+							//$("div[class=order]:last").after(data);
+							 $("div[class=order-list]").append(data);
+							//alert(data);
+						}
+					});
+				});
+			});
+	</script>
+	
+</html>

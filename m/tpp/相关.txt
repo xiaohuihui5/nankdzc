@@ -1,0 +1,23 @@
+#38b700
+
+.btn-wrap .btn{width:186px;height:68px;background-color:red去结算那里的代码
+
+德兴微信负责人
+13510271666
+
+小农女
+http://bshop.guanmai.cn
+
+天平
+http://m.tianpingpai.com/m/shop/homepage?market_id=1
+
+
+http://m.tianpingpai.com/html/m/js/index.js
+http://m.tianpingpai.com/html/m/images/cart.png
+http://m.tianpingpai.com/html/m/images/icon_put_away_goods.png
+http://m.tianpingpai.com/m/order/getOrderListInfoAjax?isAjax=true&flag=1
+
+
+
+
+https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxb2725e156a80f876&redirect_uri=http://121.15.171.27:8888/dex/weixm/oauth2.php&response_type=code&scope=snsapi_base&state=1#wechat_redirect

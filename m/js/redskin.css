@@ -1,0 +1,9 @@
+.js-content{
+    border-top: 2px solid #eb153f;
+}
+.js-category li.active{
+    background-color: #ff5b65;
+}
+.menu li.active{
+    color:#eb153f;
+}
